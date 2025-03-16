@@ -6,6 +6,9 @@ rustup:
     rustup component add rustc-codegen-cranelift-preview --toolchain nightly
     rustup component add rust-analyzer
 
+fix:
+    cargo fix --allow-dirty --allow-staged
+
 run:
     cargo run
 
