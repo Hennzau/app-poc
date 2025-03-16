@@ -1,0 +1,15 @@
+[package]
+name = "app-poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { version = "0.13.1", features = [
+    "advanced",
+    "tokio",
+    "debug",
+    "highlighter",
+    "lazy",
+] }
+tokio = { version = "1.0", features = ["fs"] }
+rfd = "0.13"
