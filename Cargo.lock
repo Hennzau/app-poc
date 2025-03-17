@@ -112,16 +112,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "app-poc"
-version = "0.1.0"
-dependencies = [
- "iced",
- "iced_aw",
- "rfd",
- "tokio",
-]
-
-[[package]]
 name = "approx"
 version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3074,6 +3064,16 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "windows-sys 0.48.0",
+]
+
+[[package]]
+name = "rine"
+version = "0.1.0"
+dependencies = [
+ "iced",
+ "iced_aw",
+ "rfd",
+ "tokio",
 ]
 
 [[package]]
