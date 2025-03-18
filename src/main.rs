@@ -53,7 +53,7 @@ impl Rine {
     }
 
     fn theme(&self) -> Theme {
-        Theme::TokyoNightStorm
+        Theme::Ferra
     }
 }
 
